@@ -11,6 +11,7 @@ import { SignUpPage } from '../pages/sign-up/sign-up';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import {Authentication} from '../services/authentication';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireDatabase, AngularFireDatabaseModule} from 'angularfire2/database';
 import {AngularFireAuthModule} from 'angularfire2/auth';
@@ -41,6 +42,7 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
   providers: [
     StatusBar,
     SplashScreen,
+    Authentication,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
