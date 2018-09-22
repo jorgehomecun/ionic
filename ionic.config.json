@@ -1,0 +1,7 @@
+{
+  "name": "nfirebase",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
